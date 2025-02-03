@@ -1,0 +1,261 @@
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+html {
+  font-family: iconfont;
+}
+@font-face {
+  font-family: "iconfont"; /* Project id 4420838 */
+  src: url("//at.alicdn.com/t/c/font_4420838_blhynd8lgsb.woff2?t=1706340382793")
+      format("woff2"),
+    url("//at.alicdn.com/t/c/font_4420838_blhynd8lgsb.woff?t=1706340382793")
+      format("woff"),
+    url("//at.alicdn.com/t/c/font_4420838_blhynd8lgsb.ttf?t=1706340382793")
+      format("truetype");
+}
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+div {
+  width: 100%;
+  height: 30px;
+}
+.left {
+  width: 300px;
+  float: left;
+  line-height: 30px;
+  margin-left: 90px;
+}
+.right {
+  width: 700px;
+  float: right;
+  margin-right: 60px;
+  line-height: 30px;
+}
+.left li {
+  float: left;
+}
+.right ul li:nth-child(even) {
+  width: 1px;
+  margin: 9px 15px 0;
+  height: 12px;
+  border: 1px solid #666;
+}
+.right li {
+  display: inline;
+}
+/* header */
+.header {
+  position: relative;
+  height: 105px;
+}
+.logo {
+  width: 171px;
+  height: 61px;
+  position: absolute;
+  top: 25px;
+}
+.logo a {
+  width: 171px;
+  height: 61px;
+  display: block;
+  background: url(../image/logo.png) no-repeat;
+  /* font-size: 0; */
+  text-indent: -9999px;
+  overflow: hidden;
+}
+.search {
+  position: absolute;
+  left: 345px;
+  top: 25px;
+  width: 538px;
+  height: 36px;
+  border: 2px solid #b1191a;
+}
+.search input {
+  width: 454px;
+  height: 32px;
+  padding-left: 10px;
+}
+.search button {
+  float: right;
+  width: 80px;
+  height: 32px;
+  background-color: #b1191a;
+  font-size: 16px;
+  color: white;
+}
+.hotline {
+  position: absolute;
+  width: 538px;
+  top: 66px;
+  left: 346px;
+  background-color: none;
+}
+.hotline a {
+  margin: 0 10px;
+}
+.red {
+  color: red;
+}
+.shopcar {
+  position: absolute;
+  width: 140px;
+  height: 35px;
+  border: 1px solid #f7f7f7;
+  background-color: #f7f7f7;
+  right: 60px;
+  top: 25px;
+  line-height: 35px;
+  text-align: center;
+}
+.count {
+  position: absolute;
+  top: -5px;
+  left: 105px;
+  line-height: 14px;
+  height: 14px;
+  color: #fff;
+  background-color: #e60012;
+  padding: 0 5px;
+  border-radius: 7px 7px 7px 0;
+}
+.nav {
+  height: 47px;
+  border-bottom: 2px solid #b1191a;
+}
+.nav .dropdown {
+  float: left;
+  width: 210px;
+  height: 45px;
+  background-color: #b1191a;
+}
+.nav .item {
+  display: inline;
+}
+.dropdown .dt {
+  width: 100%;
+  height: 100%;
+  color: #ffff;
+  text-align: center;
+  line-height: 45px;
+  font-size: 16px;
+}
+.dropdown .dd {
+  width: 210px;
+  height: 465px;
+  background-color: #c81623;
+  margin-top: 2px;
+}
+.dropdown .dd ul li {
+  height: 31px;
+  line-height: 31px;
+  margin-left: 2px;
+  padding-left: 10px;
+}
+.dropdown .dd ul li a {
+  font-size: 14px;
+  color: white;
+}
+.dropdown .dd ul li:hover {
+  background-color: white;
+}
+.dropdown .dd ul li:hover a {
+  color: #c81623;
+}
+.dropdown .dd ul li:hover .icon {
+  color: #c81623;
+}
+ul li .icon {
+  width: 14px;
+  height: 31px;
+  color: white;
+  float: right;
+  line-height: 31px;
+}
+.item ul li {
+  float: left;
+}
+.item ul li a {
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  font-size: 16px;
+  padding: 0 25px;
+}
+.footer {
+  height: 415px;
+  background-color: #f5f5f5;
+  margin-top: 50px;
+}
+.mod_service {
+  height: 80px;
+  border-bottom: 1px solid;
+}
+.mod_service ul {
+  margin-left: 40px;
+  width: 1200px;
+}
+.mod_service ul li {
+  float: left;
+  width: 300px;
+  height: 50px;
+}
+.mod_service ul li h5 {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-right: 8px;
+}
+.mod_service ul li .first {
+  background-image: url(../image/first.png);
+}
+.mod_service ul li .second {
+  background-image: url(../image/icons-fotor.png);
+}
+.mod_service ul li .third {
+  background-image: url(../image/icons3.png);
+}
+.mod_service ul li .fourth {
+  background-image: url(../image/icons4.png);
+}
+
+.text_service h4 {
+  font-style: 14px;
+}
+.text_service p {
+  font-style: 12px;
+}
+.mod_helper {
+  height: 185px;
+  border-bottom: 1px solid #ccc;
+  padding-top: 20px;
+  width: 1200px;
+}
+.mod_helper dl {
+  width: 200px;
+  float: left;
+}
+.mod_helper dl {
+  padding-left: 50px;
+}
+.mod_helper dl dt {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.mod_helper dl dd {
+  font-size: 14px;
+}
+.mod_helper dl:last-child {
+  width: 150px;
+  text-align: center;
+}
+.copy {
+  text-align: center;
+  padding-top: 20px;
+}
+.link {
+  margin-bottom: 15px;
+}
+.copyright {
+  line-height: 20px;
+}

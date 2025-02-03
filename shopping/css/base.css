@@ -1,0 +1,296 @@
+/* Base Area */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c81623;
+}
+
+button,
+input {
+  font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
+  border: 0;
+  outline: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB,
+    "\5B8B\4F53", sans-serif;
+  color: #666;
+}
+
+.hide,
+.none {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0;
+}
+
+.clearfix {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* Main Container */
+.main {
+  width: 980px;
+  height: 455px;
+  margin: 10px auto 0;
+  display: flex;
+}
+
+/* Focus and News Sections */
+.main .focus {
+  width: 721px;
+  height: 455px;
+  float: left;
+}
+
+.newflash {
+  width: 250px;
+  float: right;
+}
+
+/* News Section */
+.news {
+  height: 165px;
+  background-color: white;
+  border: 1px solid #e4e4e4;
+}
+
+.news_hd {
+  height: 33px;
+  line-height: 33px;
+  border-bottom: 1px dotted #e4e4e4;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news_hd h5 {
+  font-size: 14px;
+}
+
+.news_dd ul {
+  padding: 5px 15px 0;
+  list-style: none;
+  margin: 0;
+}
+
+.news_dd ul li {
+  height: 24px;
+  line-height: 24px;
+  font-size: 11px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* Lifeservice Section */
+.lifeservice {
+  height: 209px;
+  border: 1px solid #e4e4e4;
+  border-top: 0;
+  overflow: hidden;
+}
+
+.lifeservice ul {
+  width: 252px;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.lifeservice ul li {
+  height: 71px;
+  width: 63px;
+  border: 1px solid #e4e4e4;
+  border-top: 0;
+  border-left: 0;
+  float: left;
+  text-align: center;
+}
+
+.lifeservice ul li i {
+  display: inline-block;
+  width: 24px;
+  height: 28px;
+  margin-top: 12px;
+}
+
+/* Bargain Section */
+.bargain {
+  margin-top: 5px;
+}
+
+/* Recommend Section */
+.recommend {
+  width: 1200px;
+  height: 165px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.recommend .recom_hd {
+  width: 200px;
+  height: 165px;
+  background-color: #5c5251;
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+}
+
+.recommend .recom_hd .img {
+  width: 60px;
+  height: 60px;
+  background-image: url(../image/clock.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+}
+
+.recommend .recom_dd {
+  width: 1000px;
+  height: 165px;
+  background-color: #ebebeb;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recommend .recom_dd .recom_sd {
+  width: 248px;
+  height: 143px;
+  border-right: 1px solid #cccccc;
+  margin: 12px 1px;
+  background-image: url(../image/pic.jpg);
+  background-size: cover;
+}
+
+.recommend .recom_dd .recom_sd:nth-child(4) {
+  border: none;
+}
+
+/* Navigation Section */
+.navigation {
+  height: 30px;
+  border-bottom: 2px solid #b1191a;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation .head {
+  font-size: 20px;
+  color: #b1191a;
+  font-weight: bolder;
+}
+
+.navigation ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li {
+  height: 15px;
+  line-height: 15px;
+  margin: 0 9px;
+  font-weight: bold;
+}
+
+.navigation ul li:nth-child(even) {
+  border-right: 1px solid #c3c3c3;
+}
+
+/* Last Box Section */
+.last_box {
+  height: 360px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.last_box div {
+  color: #666666;
+}
+
+.last_box .left1,
+.last_box .left2,
+.last_box .left3,
+.last_box .left4,
+.last_box .left5 {
+  border: 1px solid #cccccc;
+  background-color: #f9f9f9;
+}
+
+.last_box .left1 {
+  width: 210px;
+  text-align: center;
+}
+
+.last_box .left2 {
+  width: 325px;
+}
+
+.last_box .left3 {
+  width: 219px;
+}
+
+.last_box .left4 {
+  width: 222px;
+}
+
+.last_box .left5 {
+  width: 205px;
+}
+
+.upper {
+  width: 210px;
+  padding-left: 10px;
+}
+
+.upper li {
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  display: inline-block;
+  border-bottom: 1px solid #cccccc;
+}
