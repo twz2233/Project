@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Data Platform</title>
+  </head>
+
+  <body>
+    <!-- alert -->
+    <div class="alert info-box">Operation result</div>
+    <!-- login -->
+    <div class="login-wrap">
+      <div class="title">Heima-Headline</div>
+      <div>
+        <form class="login-form">
+          <div class="item">
+            <input
+              type="text"
+              class="form-control"
+              name="mobile"
+              placeholder="Please enter your phone number"
+              value="13888888888"
+            />
+          </div>
+          <div class="item">
+            <input
+              type="text"
+              class="form-control"
+              name="code"
+              placeholder="default: 246810"
+              value="246810"
+            />
+          </div>
+          <div class="item">
+            <button type="button" class="btn btn-primary btn">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/1.3.4/axios.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.min.js"></script>
+    <script src="../../lib/form-serialize.js"></script>
+    <script src="../../utils/request.js"></script>
+    <script src="../../utils/alert.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
